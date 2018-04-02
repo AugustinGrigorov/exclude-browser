@@ -2,6 +2,9 @@
   "name": "react-exclude-browser",
   "version": "1.0.0",
   "description": "A react wrapper to conditionally render based on user's browser.",
+  "keywords": [
+    "react", "exclude", "browser", "unsupported", "support", "ie"
+  ],
   "main": "build/index.js",
   "repository": "https://github.com/AugustinGrigorov/react-exclude-browser",
   "author": "Augustin Grigorov",
