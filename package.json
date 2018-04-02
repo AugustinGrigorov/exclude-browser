@@ -1,0 +1,39 @@
+{
+  "name": "react-exclude-browser",
+  "version": "1.0.0",
+  "description": "A react wrapper to conditionally render based on user's browser.",
+  "main": "build/index.js",
+  "repository": "https://github.com/AugustinGrigorov/react-exclude-browser",
+  "author": "Augustin Grigorov",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel lib -d build",
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-watch": "^3.1.4",
+    "jest": "^22.4.3"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.0"
+  },
+  "dependencies": {
+    "compare-versions": "^3.1.0",
+    "detect-browser": "^2.2.0"
+  }
+}
