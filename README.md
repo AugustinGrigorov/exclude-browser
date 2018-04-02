@@ -1,5 +1,5 @@
 # react-exclude-browser
-Render content conditionally based on browser and version. The package provides a wrapper that takes props of a configuration of unsupported browsers and a react component of content to render if a browser is unsupported. Everything inside the wrapper will render on supported browsers and unsupported browsers will see the provided react component.
+Render content conditionally based on browser and version. The package provides a wrapper that takes props of a configuration of unsupported browsers and a react component of content to render if a browser is unsupported. Everything inside the wrapper will render on supported browsers and unsupported browsers will see the provided react component for unsupported browsers.
 
 ### Example use:
 ```
